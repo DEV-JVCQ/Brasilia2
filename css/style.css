@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{ /*background: #BF4904 ;*/
+	margin: 0px;
+	padding: 0px;
+	font-family: "helvetica", sans-serif;
+	font-size: 10px;
+	text-shadow: 1px 1px 5px #000;
+	color: #fff;
+} /*#D9843B*/
+
+nav ul#menu{
+	line-height: 60px; /*altura da linha*/
+	background-color: RGBa(0,0,0,0.5); /*#401E01*/
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	width: 100%;
+	/*text-align: right(para colocar o menu do lado direito*/
+}
+nav li{
+	display: inline; /*disposição da linha*/
+}
+
+#menu a:link, a:visited{
+	padding: 23px;
+	color: #5080BF;
+	font-size: 2.0em;
+	text-transform: uppercase ;
+	text-decoration: none;
+	text-shadow: 1px 1px 5px #1F1456;
+}
+#menu a:hover, a:active{
+	background-color: #F2F2F2;
+	color: #305F3B;
+	text-shadow: 1px 1px 3px;
+}
+
+#banner{
+	background-image: url("../images/011.webp");
+	width: 100%;
+	height: 800px;
+	background-size: cover;
+	background-position: center;
+}
+#about{
+	background-color: #0C2C40;
+	padding: 100px;
+	font-size: 2.5em;
+	color: #fff;
+	text-shadow: 1px 1px 5px #000;
+	height: 200px;
+	text-align: center;
+}
+#name{
+	background-color: #0B0D0C;
+	padding: 100px;
+	font-size: 2.5em;
+	color: #A7D5F2;
+	text-shadow: 1px 1px 5px #000;
+    text-align: center;
+}
+
+.name{
+	height: 200px;
+	width: 150px;
+	height: 200px;
+	margin: 20px;
+	border-radius: 5px;
+	border: 1px solid #FFF;
+	box-shadow: 5px 5px 25px #000;
+}
+#gallery{
+	background-color: #0E4C73;
+	width: 100%;
+	height: 150vh;
+	font-size: 3.0em;
+	text-align: center;
+	color: #ACD7FE;
+}
+.galeria{
+	width: 300px;
+	height: 200px;
+	margin: 20px;
+	border-radius: 5px;
+	border: 1px solid #FFF;
+	box-shadow: 5px 5px 25px #000;
+}
+#contact{
+	background-color: #2C628C;
+	color: #fff;
+	width: 100%;
+	height: 150hv;
+	padding-top: 100px;
+	font-size: 2.0em;
+	text-align: center;
+}
+
+#contact label{
+	display: block;
+	margin-top: 10px;
+}
+
+#contact input, textarea{
+	width: 400px;
+	font-size: 1.0em;
+	padding: 10px;
+	border: 0;
+	border-radius: 10px;
+}
+
+#contact button{
+	border: 0;
+	font-size: 1.2em;
+	margin-top: 10px;
+	border-radius: 10px;
+	background-color: #fff;
+	color: #000;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+#contact button:hover{
+	background-color: #A7D5F2;
+	border: 1px solid #fff;
+	color: #fff;
+}
